@@ -1,0 +1,9 @@
+html
+    head
+        title Message
+    body
+        if(type == "error")
+            h3(style = "color: red") #{message}
+        else
+            h3 New Person, Name : #{person.name}, Age: #{person.age} & Nationality: #{person.nationality} added!
+
